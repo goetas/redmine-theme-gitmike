@@ -102,7 +102,7 @@ h2, h3, h4 { border-bottom: 0px; }
 #main-menu ul li a:hover { color: #4183c4; border-bottom: 2px solid #CFDCE8; background-color: #dce6ef; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafbfd), color-stop(100%, #dce6ef)); background-image: -webkit-linear-gradient(#fafbfd, #dce6ef); background-image: -moz-linear-gradient(#fafbfd, #dce6ef); background-image: -o-linear-gradient(#fafbfd, #dce6ef); background-image: linear-gradient(#fafbfd, #dce6ef); background-repeat: repeat-x; text-decoration: underline; }
 
 table.list tbody td, table.list tbody tr:hover td { border: solid 1px #ddd; }
-table.list thead th { border-width: 1px; border-style: solid; border-top-color: #ddd; border-right-color: #ddd; border-left-color: #ddd; border-bottom-color: #ddd; }
+table.list thead th { border-width: 1px; border-style: solid; border-top-color: #eee; border-right-color: #eee; border-left-color: #eee; border-bottom-color: #eee; }
 
 .tabular label { padding-top: 4px; }
 
@@ -164,7 +164,7 @@ table.list tbody tr.even.priority-lowest:hover { color: #559; }
 
 tr.even.priority-lowest { background: #f2faff; }
 tr.priority-lowest a { color: #559; }
-tr.odd.priority-lowest td, tr.even.priority-lowest td { border-color: #add7f3; }
+tr.odd.priority-lowest td, tr.even.priority-lowest td { border-color: #D8E4EC; }
 
 /*input[type="button"], input[type="submit"], input[type="reset"] { background-color: #f2f2f2; color: #222222; border: 1px outset #cccccc; }
 input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover { background-color: #ccccbb; }
@@ -307,3 +307,6 @@ a.buy-button.blue { background: #4C728A !important; background-image: -webkit-gr
 #picture { width: 446px !important; top: 7px; }
 
 #title h2, #buttons, #title h1 { min-width: 550px !important; }
+
+
+.odd {background-color: #fcfcfc;}
