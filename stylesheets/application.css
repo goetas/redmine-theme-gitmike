@@ -310,3 +310,5 @@ a.buy-button.blue { background: #4C728A !important; background-image: -webkit-gr
 
 
 .odd {background-color: #fcfcfc;}
+table.list td {text-align: left;}
+table.list th {text-align: left;}
